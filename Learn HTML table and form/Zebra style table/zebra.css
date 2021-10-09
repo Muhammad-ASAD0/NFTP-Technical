@@ -1,0 +1,42 @@
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+/* zebra style for table 3 */
+.table-style3 tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  .table-style3-2 td:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  .table-style3-3 th:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+/* hover style for table 4 */
+
+.table-style4 tr:hover {    background-color: #D6EEEE;
+  }
+  
+/* zebra style for table 1 */
+
+.table-striped tbody tr:nth-of-type(even) {
+ 
+  background-color: #D6EEEE;
+ 
+}
+/* zebra style for table 2 */
+
+.table-style2 td:nth-child(even)  {
+    background-color: #D6EEEE;
+  }
+
+ .table-style2-2 th:nth-child(even) {
+    background-color: #D6EEEE;}
