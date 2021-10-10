@@ -1,0 +1,30 @@
+<style>
+    table,
+    tr,
+    td {
+        border: 1px solid black;
+        height: 20px;
+        border-collapse: collapse;
+        border-style: none;
+
+    }
+
+    tr {
+        color: rgb(51, 50, 50);
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #DDD;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .green {
+        color: green;
+    }
+</style>
