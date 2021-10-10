@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact  Us Form </title>
+    <title>Contact Us Form </title>
     <link rel="stylesheet" href="Contactus.css">
 </head>
+
 <body>
     <div class="container">
-		<div class="contact-box">
-			<div class="left"></div>
-			<div class="right">
-				<h2>Contact Us</h2>
-                <h4>Contact Customer Support</h4>
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2 style="text-align: center; color: rgb(71, 180, 71);">YourCompany</h2>
+                <h4
+                    style="text-align: center;  background-color: rgb(227, 251, 231); width: 450px; padding: 19px 5px ;">
+                    Contact Customer Support</h4>
                 <form action="">
-                <label for="1name">First Name </label>
-				<input type="text" class="field" placeholder="First Name">
-                <label for="lastname">Last Name </label>
-                <input type="text" class="field" placeholder="Last Name">
-                <label for="email">Email Address </label>
-				<input type="text" class="field" placeholder="Email Address">
-                <label for="phone">Phone Number </label>
-				<input type="text" class="field" placeholder="Phone Number">
-                <label for="reason">Reason for Contact </label>
-                <datalist id="reason">Chose your reason for contacting us</datalist>
-                <select name="Chose your reason for contacting us" placeholder="Chose your reason for contacting us" id="reason"></select>
-                <input type="submit" value="Contact Us">
-			</div>
-		</div>
-	</div>
-</form>
+                    <label for="1name">First Name </label>
+                    <input type="text" class="field" placeholder="First Name">
+                    <label for="lastname">Last Name </label>
+                    <input type="text" class="field" placeholder="Last Name">
+                    <label for="email">Email Address </label>
+                    <input type="text" class="field" placeholder="Email Address">
+                    <label for="phone">Phone Number </label>
+                    <input type="text" class="field" placeholder="Phone Number">
+                    <label for="reason">Reason for Contact </label> <br>
+                    <select name="reason" required
+                        style="height: 45px; width: 450px; margin-top: 5px; color: #74646e;  border: 1px solid #ccc; border-radius: 10px; box-shadow: 1px 1px 2px #999; background: rgba(238, 238, 238, 0.493);">
+                        <option value="" disabled selected hidden> &nbsp;&nbsp; Choose your reason for contacting us
+                        </option>
+                        <option value="reason">-----</option>
+                    </select>
+                    <input
+                        style="background-color: rgb(73, 194, 113); border: ivory;  margin-top:25px ; color: ivory; width: 450px; padding: 19px 5px;"
+                        type="submit" value="  Contact Us">
+            </div>
+        </div>
+    </div>
+    </form>
 </body>
+
 </html>

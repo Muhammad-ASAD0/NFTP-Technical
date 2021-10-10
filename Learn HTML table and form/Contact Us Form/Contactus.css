@@ -1,16 +1,11 @@
-*{ 
-    margin: 0%;
-    padding: 0%;
-}
-
 .field{
 	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
-	background-color: rgba(230, 230, 230, 0.6);
+	border: 2px solid rgba(58, 54, 54, 0.336);
+	background-color: r gba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 .left{
 	background-size: cover;
@@ -18,17 +13,14 @@
 }
 
 .right{
-	padding: 25px 40px;
+	padding: 40px 40px;
 }
 .contact-box{
 	max-width: 500px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 	align-items: center;
-	text-align: center;
+	text-align: left;
 	background-color: #fff;
-	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 .container{
 	position: relative;
@@ -37,5 +29,5 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 45px 25px;
 }
